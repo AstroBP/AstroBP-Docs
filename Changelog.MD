@@ -55,4 +55,41 @@
 - Fixed *"After once loading a save and then going back to load scene then back out, it will reload what you loaded the time before that. causing some potential overwriting in your creation"*
 - Added a whole placeholder tutorial video. the UI for it is also placeholder. i made it in like 40 minutes including lazy video editing.
 - You can skip-select what block/item you want to place down with number keys
-ill finish later -bey
+
+## Astro2Emoji Expirimental Release 1:
+- Initial Release
+
+## Astro2Emoji Expirimental Release 2:
+- Fixed all [Astro2Emoji Expirimental Release 1 issues]()
+- Added scrollbar toggling and osu-like cursor
+
+## AstroBP Public Beta 4:
+- Added SFX
+- Turned some UI elements into Astrogon ones
+- Dynamic grid lighting related to mouse position
+- Astrogon custom mouse (~~bro stole my idea -bey~~)
+- Added Grid and Block Culling to improve some performance
+- Added drag and drop to move blocks
+- Added grid property editing
+- Added the ability to load from a .abp file on your computer outside of the main folder
+- Added custom file type: .abp, to make old projects work, add ".apb" to old saves' file extensions
+- Removed mobile friendly UI elements to make it more cleaner
+- Hold shift while scrolling on gridview to hyperscroll
+- Fixed many issues i cant remember them all (i can -bey)
+
+## AstroBP Public Beta 5:
+- Added first-time-use-only registry
+- Added player position
+- Added ability to change player start color
+- Added End position
+- Added ability to add and remove Checkpoint
+- Added stars, max 3, like in game
+- Added protection for your uploaded levels (firebase)  to not be deleted by others at will
+- Added helpful hotkey text at top of screen
+- Added Treadmills
+- Added movables, and move on touch
+- **Added Astrogon level export. click the button, and do "ctrl+V" in the level editor in Astrogon Steam 2.0.2 or later to import your ABP creations to Astrogon**
+- Revamped ABP format exports
+- Added all 2.0 textures (Factory is buggy)
+- Fixed oh- so many annoying bugs. like a lot.. even a lot have risen during the past couple weeks, they're gone though. dont worry.
+- Added bulk delete and bulk property editing.
