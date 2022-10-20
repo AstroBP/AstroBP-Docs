@@ -93,3 +93,7 @@
 - Added all 2.0 textures (Factory is buggy)
 - Fixed oh- so many annoying bugs. like a lot.. even a lot have risen during the past couple weeks, they're gone though. dont worry.
 - Added bulk delete and bulk property editing.
+
+## Astro2Emoji Expirimental Release 3:
+- added placeholder settings gui
+- fixed -1 bugs.
