@@ -42,7 +42,7 @@
 - Fixed a few more bugs discovered along the way
 - Patched some things listed in [#known-issues](./Known_Issues.MD#astrobp-public-beta-3)
 - Added all of Astrogon's block textures, thanks to Thorsen
-- - Note: the astrogon block textures that we love the most is not added correctly, the edge tracing code will be rewritten another day
+- - Note: the astrogon block textures that we know and love the most are not added correctly, the edge tracing code will be rewritten another day
 - You can now load from firebase (needs password if required)
 - fixed issue with loading levels that are longer than what your grid size was currently at
 - Optimized the UI a little bit
