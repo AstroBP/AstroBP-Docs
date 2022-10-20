@@ -87,3 +87,7 @@ There are visual bugs when trying to move blocks that you have placed in quick s
 Trying to Bulk Move blocks will just leave them awkwardly suspended off place | 🟡
 
 Missing SFX | 🟡
+
+## Astro2Emoji Expirimental Release 3:
+
+Cursor Hidden when viewing credits | 🟡
