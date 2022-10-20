@@ -40,7 +40,7 @@
 
 ## AstroBP Public Beta 3.2:
 - Fixed a few more bugs discovered along the way
-- Patched some things listed in [#known-issues](./Known_Issues.MD#astro-bp-public-beta-3)
+- Patched some things listed in [#known-issues](./Known_Issues.MD#astrobp-public-beta-3)
 - Added all of Astrogon's block textures, thanks to Thorsen
 - - Note: the astrogon block textures that we love the most is not added correctly, the edge tracing code will be rewritten another day
 - You can now load from firebase (needs password if required)
