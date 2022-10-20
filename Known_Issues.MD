@@ -42,13 +42,13 @@ when placing red blocks near blue blocks, placing animation plays, and blocks te
 
 list:
 
-## **ABP Public Beta 2.1:**
+## **AstroBP Public Beta 2.1:**
 
 When placing large quantities of blocks, editor lags | ✅
 
 list:
 
-## **ABP Public Beta 3:**
+## **AstroBP Public Beta 3:**
 
 Importing something that's larger than what your grid size is currently set at will cut it off to that part | ✅
 
