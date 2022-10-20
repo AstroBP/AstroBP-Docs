@@ -60,7 +60,7 @@
 - Initial Release
 
 ## Astro2Emoji Expirimental Release 2:
-- Fixed all [Astro2Emoji Expirimental Release 1 issues]()
+- Fixed all [Astro2Emoji Expirimental Release 1 issues](./Known_Issues.MD#astro2emoji-experimental-release-1)
 - Added scrollbar toggling and osu-like cursor
 
 ## AstroBP Public Beta 4:
