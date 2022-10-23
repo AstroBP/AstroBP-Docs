@@ -96,4 +96,4 @@ Ability to Edit Main UI Elements when on Settings GUI | 🔴
 
 Tabbing out for a while, whle editing main ui elements on the settings GUI causes it to auto select orbs, which makes it impossible to add blocks | 🔴
 
-(IOS Export) Discord button Broken
+(IOS Export) Discord button Broken | 🟡
