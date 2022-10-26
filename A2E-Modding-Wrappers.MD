@@ -81,3 +81,128 @@
 |----------|------|
 |none | none|
 ##### Returns `boolean`
+
+### GUI Wrapper
+
+*Note: This Wrapper Requires the `Allow GUI Elements` Permission.*
+
+<br>
+
+**gui.createElement(ID, X, Y, {options})**
+
+| Parameter | Type |
+|----------|------|
+|ID | GUI Element ID to be set.|
+|X | Integer from 0 - 720|
+|Y | Integer from 0 - 1280|
+|options | Dictionary from GUIOptions|
+##### Returns `boolean`
+<br>
+
+**gui.option(ID, name, value)**
+
+| Parameter | Type |
+|----------|------|
+|ID | GUI Element ID to edit|
+|name | String, these include<br>BorderColor<br>Style|
+|value | Integer / String, these include:<br><br>BorderColor: AstroBlue, AstroRed,<br>AstroGreen, AstroYellow, AstroPurple<br><br>Style: 1, 2, 3|
+##### Returns `nothing`
+<br>
+
+**gui.onClick(ID, function)**
+
+| Parameter | Type |
+|----------|------|
+|ID | GUI Element ID to add<br>onlick event listener|
+|function | callback function|
+##### Returns `nothing`
+<br>
+
+**gui.delete(ID, function)**
+
+| Parameter | Type |
+|----------|------|
+|ID | GUI Element ID|
+##### Returns `boolean`
+
+
+### Color Wrapper
+
+*Note: This Wrapper Requires the `Allow Color Manipulation` Permission.*
+
+<br>
+
+**color.setAstroBlue(R,G,B)**
+
+| Parameter | Type |
+|----------|------|
+|R | Integer from 0 - 255 which<br>Represents Red Value.|
+|G | Integer from 0 - 255 which<br>Represents Green Value.|
+|B | Integer from 0 - 255 which<br>Represents Blue Value.|
+##### Returns `boolean`
+<br>
+
+**color.setAstroRed(R,G,B)**
+
+| Parameter | Type |
+|----------|------|
+|R | Integer from 0 - 255 which<br>Represents Red Value.|
+|G | Integer from 0 - 255 which<br>Represents Green Value.|
+|B | Integer from 0 - 255 which<br>Represents Blue Value.|
+##### Returns `boolean`
+<br>
+
+**color.setAstroGreen(R,G,B)**
+
+| Parameter | Type |
+|----------|------|
+|R | Integer from 0 - 255 which<br>Represents Red Value.|
+|G | Integer from 0 - 255 which<br>Represents Green Value.|
+|B | Integer from 0 - 255 which<br>Represents Blue Value.|
+##### Returns `boolean`
+<br>
+
+**color.setAstroYellow(R,G,B)**
+
+| Parameter | Type |
+|----------|------|
+|R | Integer from 0 - 255 which<br>Represents Red Value.|
+|G | Integer from 0 - 255 which<br>Represents Green Value.|
+|B | Integer from 0 - 255 which<br>Represents Blue Value.|
+##### Returns `boolean`
+<br>
+
+**color.setAstroPurple(R,G,B)**
+
+| Parameter | Type |
+|----------|------|
+|R | Integer from 0 - 255 which<br>Represents Red Value.|
+|G | Integer from 0 - 255 which<br>Represents Green Value.|
+|B | Integer from 0 - 255 which<br>Represents Blue Value.|
+##### Returns `boolean`
+<br>
+
+**color.setGlobalTint(R,G,B)**<br>*THIS REQUIRES THE `GLOBAL TINT` PERMISSION.*
+
+| Parameter | Type |
+|----------|------|
+|R | Integer from 0 - 255 which<br>Represents Red Value.|
+|G | Integer from 0 - 255 which<br>Represents Green Value.|
+|B | Integer from 0 - 255 which<br>Represents Blue Value.|
+##### Returns `boolean`
+<br>
+
+### Texture Wrapper
+
+*Note: This Wrapper Requires the `Allow Sprite Manipulation` Permission.*
+
+<br>
+
+**color.setBlockTexture(ID, URL)**
+
+| Parameter | Type |
+|----------|------|
+|ID | Integer from 0 - 30 which<br>Represents A BlockID.|
+|URL | String that contains<br>a Image URL.|
+##### Returns `boolean`
+<br>
