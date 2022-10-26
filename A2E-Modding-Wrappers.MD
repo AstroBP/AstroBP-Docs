@@ -14,13 +14,70 @@
 - - Color Wrapper
 - - Texture Wrapper
 - - Sound Wrapper
-<br>
+- 
 - **Export / Imports**
 - - Exporting Your Plugin
 - - Importing your Plugin
 - - Cross-Compatibility
 - - Platform-Specfific Plugins
-<br>
+- - Permissions
+- 
 - **Debugging**
 - - Using The Built-In Console
 - - "GDJS Access is not allowed!"
+
+
+## Documentation
+
+### FS Wrapper
+
+*Note: This Wrapper Requires the `Allow File Operation` Permission.*
+
+<br>
+
+**fs.RequestWrite(FileName, Data)**
+| Parameter | Type |
+|----------|------|
+|FileName | String, File Name|
+|Data | String, Data to Write to|
+##### Returns `boolean`
+
+<br>
+
+**fs.RequestRead()**
+| Parameter | Type |
+|----------|------|
+| none | none |
+##### Returns `string | null`
+
+### Data Wrapper
+
+*Note: This Wrapper Requires the `Allow Data Manipulation` Permission.*
+
+<br>
+
+**data.addBlock(GridSpaceX, GridSpaceY, BlockID)**
+
+| Parameter | Type |
+|----------|------|
+|GridSpaceX | Integer, Grid Space from 1 - 7|
+|GridSpaceY | Integer, Grid Space from 1 - 280|
+|BlockID | Integer, BlockID from 1 - 30|
+##### Returns `boolean`
+<br>
+
+**data.removeBlock(GridSpaceX, GridSpaceY)**
+
+| Parameter | Type |
+|----------|------|
+|GridSpaceX | Integer, Grid Space from 1 - 7|
+|GridSpaceY | Integer, Grid Space from 1 - 280|
+##### Returns `boolean`
+<br>
+
+**data.clearGrid()**<br>*THIS REQUIRES THE `CLEAR GRID` PERMISSION.*
+
+| Parameter | Type |
+|----------|------|
+|none | none|
+##### Returns `boolean`
