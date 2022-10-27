@@ -206,3 +206,34 @@
 |URL | String that contains<br>a Image URL.|
 ##### Returns `boolean`
 <br>
+
+**color.setBuildGUI(URL)**
+
+| Parameter | Type |
+|----------|------|
+|URL | String that contains<br>a Image URL.|
+##### Returns `boolean`
+<br>
+
+**color.setGUISquareTexture(URL)**
+
+| Parameter | Type |
+|----------|------|
+|URL | String that contains<br>a Image URL.|
+##### Returns `boolean`
+<br>
+
+
+### Sound Wrapper
+
+*Note: This Wrapper Requires the `Allow Sound Reproduction` Permission.*
+
+<br>
+
+**sound.playSound(ChannelID, URL)**
+
+| Parameter | Type |
+|----------|------|
+|ChannelID | Integer from 0 - [MAX_SAFE_INTEGER](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER#:~:text=The%20Number.,larger%20integers%2C%20consider%20using%20BigInt%20.])<br>which Represents A GDevelop Sound ChannelID .|
+|URL | String that contains<br>a Sound URL (mp3, ogg, wav)|
+##### Returns `boolean`
