@@ -8,12 +8,12 @@
 ### Table of contents:
 
 - **Documentation**
-- - FS Wrapper
-- - Data Wrapper
-- - GUI Wrapper
-- - Color Wrapper
-- - Texture Wrapper
-- - Sound Wrapper
+- - [FS Wrapper](https://github.com/AstroBP/AstroBP-Docs/blob/main/A2E-Modding-Wrappers.MD#fs-wrapper)
+- - [Data Wrapper](https://github.com/AstroBP/AstroBP-Docs/blob/main/A2E-Modding-Wrappers.MD#data-wrapper)
+- - [GUI Wrapper](https://github.com/AstroBP/AstroBP-Docs/blob/main/A2E-Modding-Wrappers.MD#gui-wrapper)
+- - [Color Wrapper](https://github.com/AstroBP/AstroBP-Docs/blob/main/A2E-Modding-Wrappers.MD#color-wrapper)
+- - [Texture Wrapper](https://github.com/AstroBP/AstroBP-Docs/blob/main/A2E-Modding-Wrappers.MD#texture-wrapper)
+- - [Sound Wrapper](https://github.com/AstroBP/AstroBP-Docs/blob/main/A2E-Modding-Wrappers.MD#sound-wrapper)
 - 
 - **Export / Imports**
 - - Exporting Your Plugin
