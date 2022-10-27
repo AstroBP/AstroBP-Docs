@@ -237,3 +237,30 @@
 |ChannelID | Integer from 0 - [MAX_SAFE_INTEGER](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER#:~:text=The%20Number.,larger%20integers%2C%20consider%20using%20BigInt%20.])<br>which Represents A GDevelop Sound ChannelID .|
 |URL | String that contains<br>a Sound URL (mp3, ogg, wav)|
 ##### Returns `boolean`
+
+## Export / Imports
+
+### Exporting Your Plugin
+
+Exporting your plugin is as easy as pressing a simple button:
+
+(IMAGE EMBED GOES HERE)
+
+**It will be uploaded to the plugin discovery page, and it will manually be checked and approved.**
+
+###### You may also manually export by copying the code, however, keep in mind that manually importing these plugins could do nasty things!
+
+### Importing Your Plugin
+
+There are 2 Ways on how to import your plugin.
+
+1) Store Discovery, in the "Customization" GUI, there will be a option called "Plug-Ins", Pressing said button will allow you to add the plugins, and look at the source (PC Only!)<br><br>
+2) Manual imports, by pressing the "Plug-Ins" Text in the Plugin GUI, there will be a GUI that allows you to copy-paste the code, keep in mind that adding plugins could have security risks as these are escalated by default (for testing reasons)
+
+### Cross-Compatibility
+
+You do not need to worry for any of the included Wrappers, However, if you are using anything that is platform specific, keep in mind that there are other platforms as:
+
+- Cordova
+- HTML5
+- Electron
