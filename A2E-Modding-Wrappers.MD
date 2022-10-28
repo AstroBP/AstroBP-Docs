@@ -264,3 +264,17 @@ You do not need to worry for any of the included Wrappers, However, if you are u
 - Cordova
 - HTML5
 - Electron
+
+### Platform-Specific Plugins
+You can make your plugins platform-specific by specifing the following parameter:
+```javascript
+$PLATFORM=Cordova
+```
+###### This sets the plugin to only launch in Cordova (Android / iOS Exports)
+
+### Permissions
+By reading the documentation, you might have seen snippets of text like **"Note: This Wrapper Requires the `permission_name` Permission."**<br><br>This is so that plugins cannot delete data or do malicious things to a device.<br><br>To enable permissions for a plugin, go to Settings > Customization > Plugins > Installed Plugins, find the plugin you want to edit the permissions for, and toggle the switch for said plugin.
+
+## Debugging
+
+### WIP Section.
