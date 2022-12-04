@@ -97,3 +97,11 @@
 ## Astro2Emoji Expirimental Release 3:
 - added placeholder settings gui
 - fixed -1 bugs.
+
+## Astro2Emoji Expirimental Release 4:
+- added saving and loading
+- added a backend data wrapper
+- added a fuck ton of extensions, window params, and more!
+- hosting a new websockets server for duo mode
+- duo mode
+- fixed bugs
