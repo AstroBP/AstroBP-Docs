@@ -105,3 +105,15 @@
 - hosting a new websockets server for duo mode
 - duo mode
 - fixed bugs
+
+## AstroBP Stable Release 1.0:
+(differences are compared to Public Beta 5 release)
+- Added Guidelines editor (in BETA)
+- Added some more security against editing others' levels
+- Added update checker
+- Added auto-download update if available
+- Added news page
+- Revamped user system
+- Partially added multiplayer editing, but it is not ready for release
+- and more
+(if you encounter any issues, it is encouraged to report them)
